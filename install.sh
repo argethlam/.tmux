@@ -21,7 +21,7 @@ TMUX_DIR=$HOME/.tmux
 git clone https://github.com/tmux-plugins/tpm $TMUX_DIR/plugins/tpm
 
 echo "> copy tmux.conf file to user home directory"
-cp $TMUX_DIR/tmux.conf $HOME/.test_tmux.conf
+cp $TMUX_DIR/tmux.conf $HOME/.tmux.conf
 
 echo "> tmux installlation process finished ..."
 
