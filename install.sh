@@ -20,12 +20,12 @@ TMUX_DIR=$HOME/.tmux
 
 git clone https://github.com/tmux-plugins/tpm $TMUX_DIR/plugins/tpm
 
-echo "> copy tmux.conf file to user home directory"
-cp $TMUX_DIR/tmux.conf $HOME/.tmux.conf
+echo "> move tmux.conf file to user home directory ..."
+mv $TMUX_DIR/tmux.conf $HOME/.tmux.conf
 
-echo "> tmux installlation process finished ..."
+echo "> tmux installlation process successfully finished!"
 
 echo "********************************************************************************************"
 echo "INFO: start new tmux session and then press [tmux prefix - Ctrl+a] + I to reload tmux config
-and install new plugins!"
+      and install new plugins defined inside ~/.tmux.conf file!"
 echo "********************************************************************************************"
