@@ -7,6 +7,7 @@
 
 #### If you are Ubuntu user, then you can run those commands to install tmux:
 > **sudo** apt-get update
+
 > **sudo** apt-get install tmux
 
 #### All you need to do is to checkout this project to your HOME (~) directory using this command:
