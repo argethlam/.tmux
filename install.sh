@@ -22,7 +22,6 @@ git clone https://github.com/tmux-plugins/tpm $TMUX_DIR/plugins/tpm
 echo "> move tmux.conf file to user home directory ..."
 
 mv $TMUX_DIR/tmux.conf $HOME/.tmux.conf
-chmod +x ~/.tmux/install.sh
 
 echo "> tmux installlation process successfully finished!"
 
